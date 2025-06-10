@@ -4,7 +4,7 @@ import random
 
 def generate_svg():
     svg_width = 1012
-    svg_height = 150
+    svg_height = 350
     num_vert_rectangles = 500
     num_horiz_rectangles = num_vert_rectangles // (svg_width // svg_height)
     num_stops = 10
